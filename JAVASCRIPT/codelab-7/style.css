@@ -1,0 +1,53 @@
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 5px;
+    height: 50px;
+
+
+}
+
+#list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 20px;
+    position: relative;
+    bottom: 12px;
+
+}
+#cart{
+   width: 10%;
+   position: relative;
+   left: 300px;
+   top: 20px;
+
+
+}
+
+#p{
+    display: inline;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+    justify-content:space-between;
+}
+
+.box{
+    border: 2px solid grey;
+    width: 44%;
+    padding: 20px;
+    
+}
+h4{
+
+}

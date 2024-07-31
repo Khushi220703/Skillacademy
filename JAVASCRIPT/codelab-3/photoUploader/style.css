@@ -1,0 +1,43 @@
+
+.box{
+    background-color: rgb(34, 33, 33);
+    color: purple;
+    font-size: large;
+    margin: -10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 4px solid purple;
+}
+input{
+    font-size: larger;
+    font-weight: 600;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border:2px solid magenta;
+    background-color: pink;
+    color:white;
+    font-size: medium;
+    font-weight: 700;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: magenta;
+}
+
+#gallery{
+    background-color: rgb(39, 36, 36);
+    margin: -10px;
+}
+#gallery > img{
+    width: 300px;
+    height: 330px;
+    margin: 40px;
+    border-radius: 4px;
+    border: 3px solid purple;
+}

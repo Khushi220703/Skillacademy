@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body
+        {
+            background: plum;
+           
+        }
+       #climate
+       {
+        background-color: purple;
+        width: 500px;
+        height: 500px;
+        margin: auto;
+        border: 4px solid mediumvioletred;
+        position: relative;
+        top: 300px;
+        border-radius: 10px;
+        padding: 50px;
+       }
+
+       img
+       {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        left: 20%;
+        top: 50px;
+        border: 5px solid pink;
+        border-radius: 10px;
+        
+       }
+
+       select
+       {
+        position: absolute;
+        left:200px;
+        height: 50px;
+        border: none;
+        background-color: pink;
+       }
+
+       button
+       {
+        position: absolute;
+        left:300px;
+        height: 50px;
+        border: none;
+        background-color: pink;
+
+       }
+    </style>
+</head>
+<body>
+    <div id="climate">
+    <select id="season" name="climate">
+        <option value="winter">Winter</option>
+        <option value="summer">Summer</option>
+        <option value="autumn">Auttum</option>
+        <option value="spring">Spring</option>
+       
+    </select>
+    <button id="change" onclick="change()">Change image</button>
+
+  
+
+    <div id="image">
+         <img src="./Coffee.jpg"  id="imag2"/>
+    </div>
+
+</div>
+
+    <script>
+
+      
+
+        function change()
+        {  imageType = document.getElementById("season").value;
+        console.log(imageType);
+        if(imageType === "winter")
+        { 
+           val =  document.getElementById("imag2");
+           val.src = "./foundation.jpg"
+          
+           
+        }
+
+        if(imageType === "summer")
+        { 
+            val =  document.getElementById("imag2");
+            val.src = "./lipstick.jpg"
+          
+        }
+
+        if(imageType === "autumn")
+        {
+            val =  document.getElementById("imag2");
+            val.src = "./Coffee.jpg"
+          
+        }
+
+        if(imageType==="spring")
+        { 
+            val =  document.getElementById("imag2");
+            val.src = "./jwellery.jpg"
+        }
+    }
+    </script>
+</body>
+</html>

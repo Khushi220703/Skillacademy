@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--HTML for problem statement-1-->
+    <h2>Javascript function bind()</h2>
+    <p>person and memeber are two objects</p>
+    <p>The member borrow the full name method from the person.</p>
+    <p id="demo"></p>
+
+     <!--HTML for problem statement-2-->
+     <h2>The Javascript this keyeword</h2>
+     <p>In this example, <b>This</b> refers to the <b>person</b> object.</p>
+     <p>Because <b>fullName</b> is method of person object.</p>
+     <p id="demo-1"></p>
+
+
+     <!--HTML for problem statement-3-->
+     <h2>The Javascript <b>this</b> keyword</h2>
+     <p>In this example, this refers to window object</p>
+     <p id="demo-2"></p>
+
+      <!--HTML for problem statement-4-->
+      <p id="demo-3"></p>
+
+    <script>
+
+        // js for problem statement-1
+        const person = {
+
+            name : "Khushi",
+            lastName : "Jha",
+            fullName: function()
+            {
+              
+                return this.name + " " + this.lastName;
+            }
+        }
+
+        const memeber = {
+               name: "Khushbu",
+               lastName: "Jha"
+        }
+
+        let fullName = person.fullName.bind(memeber);
+
+        document.getElementById("demo").innerHTML = fullName();
+        
+         // js for problem statement-2
+
+         const human = {
+            name : "Khushbu",
+            lastName : "Jha",
+            fullName : function(){
+                return this.name + " " + this.lastName;
+            }
+         }
+
+        document.getElementById("demo-1").innerHTML = human.fullName();
+
+         // js for problem statement-3
+         let x = this;
+         document.getElementById("demo-2").innerHTML = x;
+
+         // js for problem statement-4
+         document.getElementById("demo-3").innerHTML = myFunction();
+
+         function myFunction() 
+         {
+            return this;
+         }
+
+
+
+
+    </script>
+</body>
+</html>

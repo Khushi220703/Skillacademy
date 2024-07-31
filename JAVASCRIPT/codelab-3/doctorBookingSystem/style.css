@@ -1,0 +1,48 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    margin: auto;
+    width: 50%;
+    border: 1px solid grey; 
+    padding: 3px;
+    border-radius: 10px;
+    
+
+}
+
+button{
+    margin: 20px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: 800;
+    color: white;
+    background-color: blue;
+}
+
+.booking > form{
+    
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cancel{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.appointments-list{
+    border: 1px solid white;
+    background-color: grey;
+    width: 60%;
+    margin: auto;
+    height: max-content;
+    font-size: larger;
+    padding: 4px;
+
+}
+

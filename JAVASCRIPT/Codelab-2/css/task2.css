@@ -1,0 +1,39 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gradesCalculator{
+    margin: auto;
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 0px 1px grey, 2px 0px 1px  gray,2px 2px 2px grey, 2px 0px 1px grey;
+
+}
+
+button{
+    border: none;
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
+    width: 350px;
+    height: 40px;
+    border-radius: 2px;
+}
+input{
+
+    width: 350px;
+    height: 25px;
+}
+
+.result{
+    width: 310px;
+    height: 100px;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(234, 226, 226);
+}
+

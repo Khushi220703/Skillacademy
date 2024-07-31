@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/task2.css">
+    <script src="../js/task2.js"></script>
+    <title>task2</title>
+</head>
+<body>
+    <div class="gradesCalculator">
+        <h2>ADD GRADE</h2>
+        <label for="student">Student</label><br>
+        <input type="text" name="student" id="student"><br>
+        <br>
+
+        <label for="grade">Grade</label><br>
+        <input type="text" name="grade" id="grade"><br>
+        <br>
+
+        <button type="submit" onclick="addGrade()">Add Grade</button>
+        <br>
+
+        <h2>Average Grade</h2>
+        <button type="submit" onclick="findAverage()">Calculate Average</button><br>
+
+        <h2>Students by Grades</h2>
+        <button type="submit" onclick="studentsList()">List Students</button>
+        <br>
+
+        <div class="result" id="list">
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./task1.css" rel="stylesheet" >
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="body">
+
+         <h1 class="heading">Student grade management system</h1>
+         <h2 class="heading-2">Grades</h2>
+
+        <h4>Average Grade</h4>
+        <div id="gardelist"></div>
+        <p id="p2">The student grade is: <span id="p1">0</span></p>
+
+        <label for="data">Enter the marks</label><br/>
+        <input type="text" name="data" id="data" placeholder="Enter marks"/>
+        <br/>
+        <br/>
+
+        <button onclick="calculate()">Calculate</button>
+        <span class="msg"></span>
+    </div> 
+
+    <script>
+
+        const arr = [];
+        var i = 0;
+        let avg = 0;
+        let sum = 0;
+        const calculate = () => 
+        {  
+            if(i <6)
+            {
+               var data = parseInt(document.getElementById("data").value);
+               arr.push(data);
+               const node = document.createElement("p");
+               const textnode = document.createTextNode(`grade-${i+1}: ${arr[i]}`);
+               node.appendChild(textnode);
+            
+              document.getElementById("gardelist").appendChild(node);
+              
+                sum = sum + data;
+               avg = (sum)/(arr.length);
+               console.log(avg);
+               document.getElementById("p1").innerHTML = avg;
+              
+
+               if(avg < 60)
+               {       document.getElementById("p2").style.color = "red";
+                      document.getElementById("p2").innerHTML = "Student is failing"
+                     
+               }
+               else
+               {
+                    document.getElementById("p2").style.color = "green";
+               }
+               
+            }
+            else
+            {
+                document.getElementsByClassName("msg").innerHTML = "Only 6 subjects marks can be calculated!"
+            }
+
+            i++;
+        
+        }
+      
+       
+    </script>
+   
+</body>
+</html>

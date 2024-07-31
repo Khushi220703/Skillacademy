@@ -1,0 +1,221 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+  
+}
+#whole
+{
+    background-image:linear-gradient(90deg,rgb(58, 16, 58),rgb(126, 37, 86), rgb(108, 55, 85),rgb(171, 67, 131));
+    padding: 50px;
+    height: 600px;
+    animation-name: c;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes c {
+    10% { background-image:  linear-gradient(90deg,rgb(58, 16, 58),rgb(126, 37, 86), rgb(108, 55, 85),rgb(171, 67, 131))}
+    30% {background-image: linear-gradient(90deg,rgb(126, 37, 86),rgb(58, 16, 58),rgb(108, 55, 85),rgb(171, 67, 131));}
+    50% {background-image: linear-gradient(90deg,rgb(108, 55, 85),rgb(126, 37, 86),rgb(58, 16, 58),rgb(171, 67, 131) )}
+    70% {background-image: linear-gradient(90deg,rgb(171, 67, 131),rgb(108, 55, 85),rgb(126, 37, 86),rgb(58, 16, 58));}
+    100% {background-image: linear-gradient(90deg, rgb(65, 13, 65))}
+}
+
+#signup
+{
+    width: 30%;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: palevioletred;
+    border: 4px solid plum;
+    
+}
+
+#signup-form > h1
+{
+    width:60%;
+    margin: auto;
+    margin-bottom: 15px;
+    color: palevioletred;
+   
+}
+
+#signup-form > h4
+{
+    width:30%;
+    margin: auto;
+    box-shadow: 0 1px 2px 0 rgba(47, 47, 47, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: palevioletred;
+   
+}
+
+.details
+{
+    
+    margin: 5px;
+    padding: 10px;
+    height: 100px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.details > label
+{
+   font-size: larger;
+   
+}
+
+.details > input
+{
+    border: none;
+    border-bottom: 2px solid palevioletred;
+    margin: 10px;
+    width:270px;
+   
+}
+
+#signup-submit
+{
+  border: none;
+  background-color: whitesmoke;
+  border: 10%;
+  height: 30px;
+  width: 95%;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: palevioletred;
+  font-size: larger;
+  font-weight: 500;
+}
+
+#signup-signin
+{
+  border: none;
+  background-color: whitesmoke;
+  border: 10%;
+  height: 30px;
+  width: 95%;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: palevioletred;
+  font-size: larger;
+  font-weight: 500;
+}
+
+#forgot
+{
+    border: none;
+    color: blue;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.reset
+{
+    width: 50%;
+    margin: auto;
+}
+
+.reset-form
+{
+  height: 330px;
+  margin: 10px;
+}
+
+.reset-form > h1
+{
+    width:60%;
+    margin: auto;
+    margin-bottom: 15px;
+    color: palevioletred;
+}
+.reset-form > p
+{
+    width:30%;
+    margin: auto;
+    box-shadow: 0 1px 2px 0 rgba(47, 47, 47, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: palevioletred;
+}
+
+.reset-form > div
+{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    height: 100px;
+   padding-top: 30px;
+
+}
+
+#reset-div > h2
+{
+    font-weight: 400;
+    font-size: larger;
+    color: palevioletred;
+}
+
+#reset-div > label
+{
+    margin: 10px;
+    color: rgb(72, 41, 65);
+    
+}
+
+#reset-div > input
+{
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+#reset-submit
+{
+  border: none;
+  background-color: whitesmoke;
+  border: 10%;
+  height: 30px;
+  width: 95%;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: palevioletred;
+  font-size: larger;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#reset-signin
+{
+  border: none;
+  background-color: whitesmoke;
+  border: 10%;
+  height: 30px;
+  width: 95%;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: palevioletred;
+  font-size: larger;
+  font-weight: 500;
+  cursor: pointer;
+}
+

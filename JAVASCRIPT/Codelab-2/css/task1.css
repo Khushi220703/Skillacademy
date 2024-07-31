@@ -1,0 +1,21 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+label{
+    font-weight: 600;
+   
+}
+
+input{
+    border: 1px solid grey;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book doctor</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Book Appointment</h1>
+
+        <div class="booking">
+            <form>
+                <label for="patient">Patient Name</label><br>
+                <input type="text" name="patient" id="patient"><br>
+
+                <label for="doctor">Doctor Name</label><br>
+                <input type="text" name="doctor" id="doctor"><br>
+
+                <label for="date">Appointment Date</label><br>
+                <input type="date" name="date" id="date"><br>
+
+                <button class="book-button" onclick="store()">Book Appointment</button><br>
+            </form>
+        </div>
+
+        <div class="cancel">
+            <h1 class="cancel-title">Cancel Appointment</h1>
+            <label for="id">Appointment Id</label><br>
+            <input type="text" name="id" id="id"><br>
+
+            <button class="cancel-button" onclick="cancel()">Cancel Appointment</button>
+        </div>
+
+        <div class="view">
+            <h1 class="view-title">View Appointments</h1>
+            <button class="list" onclick="show()">Show Appointment</button>
+            <div class="appointments-list">
+                <table id="table">
+                    <tr>
+                        <th>Id</th>
+                        <th>Pateint name</th>
+                        <th>Doctor name</th>
+                        <th>Appointment date</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

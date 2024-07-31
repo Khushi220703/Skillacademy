@@ -1,0 +1,119 @@
+.line{
+   
+    height: 100px;
+    width: 100px;
+}
+
+.line-left{
+    border-left: 2px solid blue;
+    animation-name: corner-left;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.line-top{
+    border-top: 2px solid blue;
+    animation-name: corner-left;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.line-right{
+    border-right: 2px solid blue;
+    position: relative;
+    bottom: 200px;
+    animation-name: corner-left;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.line-bottom{
+    border-bottom: 2px solid blue;
+    position: relative;
+    bottom: 401px;
+    animation-name: corner-left;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.box{
+    margin: auto;
+    width: 10%;
+   
+    position: relative;
+    top: 250px;
+   
+}
+
+@keyframes corner-left {
+    from{
+        transform: skew(360deg);
+        
+    }
+    
+}
+
+/*round load button*/
+
+.circle{
+    height: 100px;
+    border: 16px solid lightblue;
+    border-top: 16px solid #3498db; 
+    width: 100px;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/*three ball loader*/
+.rectangle{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    margin: 130px;
+}
+.ball-1{
+   
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    background-color: blue;
+    animation: up-down 3s infinite linear ;
+}
+.ball-2{
+   
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    background-color: blue;
+    animation: up-down 3s infinite linear ;
+    
+}
+
+.ball-3{
+   
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    background-color: blue;
+    animation: up-down 3s infinite linear ;
+    
+}
+@keyframes up-down {
+    from{
+        position: relative;
+        top: -10px;
+    }
+}
+
+

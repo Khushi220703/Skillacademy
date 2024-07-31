@@ -1,0 +1,38 @@
+.body
+{
+    margin: auto;
+    width: 50%;
+    border:2px solid pink;
+    border-radius: 10px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1
+{
+    background-color: peachpuff;
+    padding: 10px;
+    color: peru;
+}
+
+input
+{
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    
+}
+
+button
+{
+    background-color: plum;
+    border: none;
+    height: 40px;
+    width: 140px;
+    font-weight: 600;
+    color: palevioletred;
+    font-size: larger;
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+   <!--Problem-1: OnClick event-->
+   <h1>JavaScript event--</h1>
+   <button onclick="change()">Who is this?</button>
+   <div id="change"></div>
+
+   <script>
+        function change() 
+        {
+            document.getElementById('change').innerHTML= "This js click event";
+        }
+   </script>
+
+
+   <!--problem-2: Mouse over event-->
+   <h4 onmouseover="change1()">Keep cursor on me.</h4>
+
+   <script>
+        function change1()
+        {
+            alert("hello mouse!");
+        }
+   </script>
+
+   <!--problem-3: Focus event-->
+
+   <h1>Enter something here.</h1>
+   <input type="text" name="name" id="name" onfocus="change2()">
+
+   <script>
+        function change2()
+        {
+            alert("you focus on input");
+        }
+   </script>
+
+   <!--problem-4: keydown event-->
+   <h1>Enter something here.</h1>
+   <input type="text" name="name" id="name" onkeydown="change3()">
+
+   <script>
+     function change3()
+     {
+        alert("onChanging key")
+     }
+   </script>
+
+
+<!--Diamond pattern-->
+
+<script>
+    for(let i = 1;i<=5;i++)
+    {
+        
+    }
+</script>
+
+   
+
+
+
+
+</body>
+</html>

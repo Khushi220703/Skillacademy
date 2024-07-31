@@ -1,0 +1,131 @@
+
+
+.todo
+{
+  width: 35%;
+  margin: auto;
+  margin-top: 70px;
+  
+}
+
+.todoLogo
+{
+  background-color: rgb(155, 45, 95);
+  color:  rgb(240, 205, 217);
+  text-align: center;
+  padding: 2px;
+}
+
+.toComplete
+{
+  width: 98%;
+  background-color: rgb(248, 219, 224);
+  padding: 5px;
+  margin-top: 20px;
+  color: rgb(219, 107, 152);
+  font-weight: 400;
+  
+
+}
+
+.toComplete > p
+{
+  color:green;
+  font-weight: 700;
+}
+
+.addTodoButton
+{
+  width: 120px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color:  rgb(155, 45, 95);
+  border-radius: 20px;
+  position: relative;
+  left: 195px;
+  top: 25px;
+
+}
+
+.icon
+{
+  position: relative;
+  left: 400px;
+}
+
+/*desinging completed task page*/
+
+.completed
+{
+  width: 98%;
+  background-color: rgb(248, 219, 224);
+  padding: 5px;
+  margin-top: 20px;
+  color: rgb(219, 107, 152);
+  font-weight: 400;
+ 
+}
+
+.completed > p
+{
+  color:green;
+  font-weight: 700;
+}
+
+.completedTask
+{
+  color: grey;
+}
+
+/*desinging add task form */
+
+form
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.addWork
+{
+  width: 92.5%;
+  background-color: rgb(248, 219, 224);
+  padding: 5px;
+  margin-top: 20px;
+  color: rgb(219, 107, 152);
+  font-weight: 400;
+  padding: 20px;
+}
+
+.addTask > input
+{
+   border: none;
+   border-bottom: 1px solid grey;
+   background-color: transparent;
+   width: 90%;
+}
+
+.addTask > label
+{
+  font-weight: 600;
+  
+}
+
+.addTaskButton
+{
+  width: 120px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color:  rgb(155, 45, 95);
+  border-radius: 20px;
+  position: relative;
+  left: 195px;
+  top: 40px;
+}
+
+
+/*Adding flip page effect*/
+
